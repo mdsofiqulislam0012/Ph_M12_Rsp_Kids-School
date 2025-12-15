@@ -89,3 +89,49 @@ h1,h2,h3,h4,h5,h6,p,ul,li,a,ol,span{
     justify-content: center;
 }
 /* nav style end */
+
+
+
+
+/* banner part start */
+.banner-part-controler{
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+    padding: 10px;
+}
+.banner-text-part h2{
+    font-size: 50px;
+    font-weight: 800;
+    font-family: "Work Sans", sans-serif;
+    color: var(--black-text-color);
+    margin-bottom: 24px;
+}
+.banner-text-part{
+    margin-top: 178px;
+}
+.banner-text-part .towards-vision{
+    color: var(--sky-blue-text-color);
+}
+.banner-text-part p{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Work Sans", sans-serif;
+    color: var(--black-text-color);
+    margin-bottom: 24px;
+}
+.banner-text-part button{
+    width: 130px;
+    height: 40px;
+    background-color: var(--black-text-color);
+    color: white;
+    border: none;
+    border-radius: 12px;
+}
+
+/* right site banner image */
+.banner-image img{
+    width: 369px;
+    height: 454px;
+}
+/* banner part end */
