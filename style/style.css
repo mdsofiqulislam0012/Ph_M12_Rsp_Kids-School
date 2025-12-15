@@ -1,14 +1,27 @@
 /* universel Css */
-*{
+* {
     margin: 0;
     padding: 0;
 }
-h1,h2,h3,h4,h5,h6,p,ul,li,a,ol,span{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+a,
+ol,
+span {
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 /* universel Css */
 
@@ -19,7 +32,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li,a,ol,span{
 
 /* font-family: "Work Sans", sans-serif; */
 
-:root{
+:root {
     --common-backgroun-color: #01ACFD;
     --sky-blue-text-color: #01ACFD;
     --orange-text-color: #FEA301;
@@ -27,53 +40,62 @@ h1,h2,h3,h4,h5,h6,p,ul,li,a,ol,span{
     --primary-text-color: #05D4DF;
 }
 
-.container{
+.container {
     width: 1100px;
     margin: 0 auto;
 }
+
 /* shared style end */
 
 
 /* nav style start */
-.nav-controler{
+.nav-controler {
     display: flex;
     margin-top: 16px;
 }
-.nav-item{
+
+.nav-item {
     display: flex;
     gap: 30px;
     align-items: center;
 }
-.nav-item .home a{
+
+.nav-item .home a {
     color: var(--orange-text-color);
     font-family: "Work Sans", sans-serif;
     font-weight: 800;
     font-size: 20px;
 }
-.nav-item .about a{
+
+.nav-item .about a {
     font-size: 20px;
     font-weight: 400;
     font-family: "Work Sans", sans-serif;
     color: var(--common-backgroun-color);
 }
-.nav-item .Facilities a{
+
+.nav-item .Facilities a {
     font-size: 20;
     font-family: "Work Sans", sans-serif;
     font-weight: 400;
     color: var(--primary-text-color);
 }
-.nav-item .Admission a{
+
+.nav-item .Admission a {
     font-size: 20px;
     font-weight: 400;
     font-family: "Work Sans", sans-serif;
 }
-.nav-option{
+
+.nav-option {
     margin-left: 270px;
 }
-.nav-btn{
+
+.nav-btn {
     margin-left: 270px;
 }
-.nav-btn button{
+
+.nav-btn button {
     background-color: var(--orange-text-color);
     color: white;
     padding: 20px;
@@ -88,39 +110,45 @@ h1,h2,h3,h4,h5,h6,p,ul,li,a,ol,span{
     font-family: "Work Sans", sans-serif;
     justify-content: center;
 }
+
 /* nav style end */
 
 
 
 
 /* banner part start */
-.banner-part-controler{
+.banner-part-controler {
     display: flex;
     gap: 50px;
     margin-top: 20px;
     padding: 10px;
 }
-.banner-text-part h2{
+
+.banner-text-part h2 {
     font-size: 50px;
     font-weight: 800;
     font-family: "Work Sans", sans-serif;
     color: var(--black-text-color);
     margin-bottom: 24px;
 }
-.banner-text-part{
+
+.banner-text-part {
     margin-top: 178px;
 }
-.banner-text-part .towards-vision{
+
+.banner-text-part .towards-vision {
     color: var(--sky-blue-text-color);
 }
-.banner-text-part p{
+
+.banner-text-part p {
     font-size: 20px;
     font-weight: 300;
     font-family: "Work Sans", sans-serif;
     color: var(--black-text-color);
     margin-bottom: 24px;
 }
-.banner-text-part button{
+
+.banner-text-part button {
     width: 130px;
     height: 40px;
     background-color: var(--black-text-color);
@@ -130,8 +158,184 @@ h1,h2,h3,h4,h5,h6,p,ul,li,a,ol,span{
 }
 
 /* right site banner image */
-.banner-image img{
+.banner-image img {
     width: 369px;
     height: 454px;
 }
+
 /* banner part end */
+
+
+
+/* standard curriculum section design */
+#standard-curriculum {
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.background-image {
+    background-image: url("/assets/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.curriculum-heading h1 {
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Work Sans", sans-serif;
+    color: var(--black-text-color);
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+/* curriculum card */
+.first-curriculum-card {
+    box-shadow: 0 20px 12px rgba(0, 0, 0, 0.3);
+    width: 344px;
+    background: linear-gradient(#DEF5FF, #FFFFFF);
+    height: 450px;
+    border-radius: 18px;
+}
+
+.second-curriculum-card {
+    box-shadow: 0 20px 12px rgba(0, 0, 0, 0.3);
+    width: 344px;
+    background: linear-gradient(#93BFC7, #ABE7B2, #CBF3BB, #ECF4E8);
+    height: 450px;
+    border-radius: 18px;
+}
+
+.third-curriculum-card {
+    box-shadow: 0 20px 12px rgba(0, 0, 0, 0.3);
+    width: 344px;
+    background: linear-gradient(#CFAB8D, #D9C4B0, #ECEEDF, #BBDCE5);
+    height: 450px;
+    border-radius: 18px;
+}
+
+.curriculum-card-parent {
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+}
+
+.curriculum-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.curriculum-image img {
+    width: 136px;
+    height: 136px;
+}
+
+.curriculum-image-text h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 800;
+    font-family: "Work Sans", sans-serif;
+    color: var(--black-text-color);
+    margin-top: 32px;
+}
+
+.curriculum-image-text p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: "Work Sans", sans-serif;
+    margin-top: 33px;
+    margin-bottom: 33px;
+}
+
+.curriculum-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.curriculum-btn h5 {
+    border: none;
+    color: var(--sky-blue-text-color);
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Work Sans", sans-serif;
+}
+
+.curriculum-btn .second-btn {
+    color: var(--orange-text-color);
+}
+
+.curriculum-btn .third-btn {
+    color: #8700FF;
+}
+
+/* standard curriculum section design */
+
+
+
+/* indicator */
+.slider-indicator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin: 40px 0;
+}
+.control{
+    width: 53px;
+    height: 53px;
+    border-radius: 122px;
+    background-color: var(--orange-text-color);
+    color: white;
+    border: none;
+    margin-top: 70px;
+}
+/* indicator */
+
+
+
+/* our stories design start */
+.our-stories-heading h2{
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Work Sans", sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+.left-site-card{
+    width: 420px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0 24px 40px 0 rgba(0, 0, 0, 0.5);
+}
+.left-site-card-image img{
+    width: 420px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: relative;
+}
+.stori-button button{
+    position: absolute;
+    z-index: 1;
+    width: 157px;
+    height: 36px;
+    border-radius: 20px;
+    margin-top: -26px;
+    margin-left: 27px;
+    background-color: var(--primary-text-color);
+    border: none;
+    color: white;
+}
+.our-stori-text {
+    margin-top: 20px;
+    padding: 37px;
+}
+.our-stori-text h3{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Work Sans", sans-serif;
+    color: var(--black-text-color);
+}
+/* our stories design end */
