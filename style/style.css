@@ -1,0 +1,91 @@
+/* universel Css */
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p,ul,li,a,ol,span{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* universel Css */
+
+
+
+
+/* shared style start */
+
+/* font-family: "Work Sans", sans-serif; */
+
+:root{
+    --common-backgroun-color: #01ACFD;
+    --sky-blue-text-color: #01ACFD;
+    --orange-text-color: #FEA301;
+    --black-text-color: #000000;
+    --primary-text-color: #05D4DF;
+}
+
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+/* shared style end */
+
+
+/* nav style start */
+.nav-controler{
+    display: flex;
+    margin-top: 16px;
+}
+.nav-item{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.nav-item .home a{
+    color: var(--orange-text-color);
+    font-family: "Work Sans", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+}
+.nav-item .about a{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Work Sans", sans-serif;
+    color: var(--common-backgroun-color);
+}
+.nav-item .Facilities a{
+    font-size: 20;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    color: var(--primary-text-color);
+}
+.nav-item .Admission a{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Work Sans", sans-serif;
+}
+.nav-option{
+    margin-left: 270px;
+}
+.nav-btn{
+    margin-left: 270px;
+}
+.nav-btn button{
+    background-color: var(--orange-text-color);
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    width: 130px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Work Sans", sans-serif;
+    justify-content: center;
+}
+/* nav style end */
