@@ -201,7 +201,7 @@ span {
 .second-curriculum-card {
     box-shadow: 0 20px 12px rgba(0, 0, 0, 0.3);
     width: 344px;
-    background: linear-gradient(#93BFC7, #ABE7B2, #CBF3BB, #ECF4E8);
+    background: linear-gradient(#FFFFFF, #FFF4DC);
     height: 450px;
     border-radius: 18px;
 }
@@ -209,7 +209,7 @@ span {
 .third-curriculum-card {
     box-shadow: 0 20px 12px rgba(0, 0, 0, 0.3);
     width: 344px;
-    background: linear-gradient(#CFAB8D, #D9C4B0, #ECEEDF, #BBDCE5);
+    background: linear-gradient(#FFFFFF, #F2E8FF);
     height: 450px;
     border-radius: 18px;
 }
@@ -276,13 +276,14 @@ span {
 
 /* indicator */
 .slider-indicator {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-  margin: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin: 40px 0;
 }
-.control{
+
+.control {
     width: 53px;
     height: 53px;
     border-radius: 122px;
@@ -291,12 +292,13 @@ span {
     border: none;
     margin-top: 70px;
 }
+
 /* indicator */
 
 
 
 /* our stories design start */
-.our-stories-heading h2{
+.our-stories-heading h2 {
     font-size: 40px;
     font-weight: 800;
     font-family: "Work Sans", sans-serif;
@@ -304,19 +306,22 @@ span {
     margin-top: 30px;
     margin-bottom: 80px;
 }
-.left-site-card{
+
+.left-site-card {
     width: 420px;
-    height: 500px;
+    height: 600px;
     border-radius: 20px;
     box-shadow: 0 24px 40px 0 rgba(0, 0, 0, 0.5);
 }
-.left-site-card-image img{
+
+.left-site-card-image img {
     width: 420px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     position: relative;
 }
-.stori-button button{
+
+.stori-button button {
     position: absolute;
     z-index: 1;
     width: 157px;
@@ -328,14 +333,135 @@ span {
     border: none;
     color: white;
 }
+
 .our-stori-text {
     margin-top: 20px;
     padding: 37px;
 }
-.our-stori-text h3{
+
+.our-stori-text p {
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Work Sans", sans-serif;
+    line-height: 30px;
+}
+
+.our-stori-text h3 {
+    line-height: 28px;
     font-size: 20px;
     font-weight: 700;
     font-family: "Work Sans", sans-serif;
     color: var(--black-text-color);
+    margin-bottom: 40px;
 }
+
+.our-stories-card-parent {
+    display: flex;
+    gap: 20px;
+}
+
+/* right site */
+#our-stories{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(#f5e3bf, #f3e5af);
+    background-image: url("/assets/bg.png");
+}
+.our-stories-right-site {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.left-site-control-parent {
+    width: 290px;
+    height: 270px;
+    box-shadow: 0 24px 25px 0 rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.our-stories-first-image img {
+    width: 290px;
+    height: 146px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    position: relative;
+}
+
+.left-site-image-button button {
+    position: absolute;
+    z-index: 1;
+    width: 157px;
+    height: 36px;
+    border-radius: 20px;
+    margin-top: -26px;
+    margin-left: 27px;
+    background-color: var(--primary-text-color);
+    border: none;
+    color: white;
+}
+
+.our-stories-second-image img {
+    border-radius: 10px;
+    width: 290px;
+    height: 146px;
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.our-stories-third-image img {
+    border-radius: 10px;
+    width: 290px;
+    height: 146px;
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.our-stories-four-image img {
+    border-radius: 10px;
+    width: 290px;
+    height: 146px;
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.left-site-image-text p {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Work Sans", sans-serif;
+}
+
+.view-all-btn{
+    display: flex;
+    justify-content: center;
+}
+.view-all-btn button{
+    background-color: var(--black-text-color);
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    width: 130px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Work Sans", sans-serif;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+
 /* our stories design end */
