@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kids School</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/Responsive.css">
 </head>
 
 <body>
@@ -14,6 +15,7 @@
             <div class="container">
                 <!-- start nav controler -->
                 <div class="nav-controler">
+
                     <div class="logo">
                         <img src="/assets/logo.png" alt="">
                     </div>
@@ -27,13 +29,22 @@
                             <li class="Admission"><a href="#">Admission</a></li>
                         </ul>
                     </div>
+
                     <div class="nav-btn">
                         <button>Contact</button>
                     </div>
+
+                    <!-- 🔴 ADD THIS: hamburger toggle -->
+                    <div class="nav-toggle">
+                        ☰
+                    </div>
+                    <!-- 🔴 END -->
+
                 </div>
                 <!-- nav controler end -->
             </div>
         </nav>
+
         <!-- nav design end -->
 
 
@@ -52,7 +63,9 @@
                         <p>With the courage, Confidence, Creativity and Compassion to make their Unique Contribution in
                             a Diverse and Dynamic World.
                         </p>
-                        <button>Enroll Now</button>
+                        <div class="banner-btn">
+                            <button>Enroll Now</button>
+                        </div>
                     </div>
 
                     <!-- right part -->
@@ -237,10 +250,6 @@
         </section>
         <!-- our stories section start -->
     </main>
-
-
-
-    
     <footer>
         <section id="footer-section">
             <div class="container">
@@ -252,13 +261,14 @@
                             <img src="/assets/logo.png" alt="kids logo">
                             <div class="logo-text">
                                 <h2>Kids
-                                   <br> Education
+                                    <br> Education
                                 </h2>
                             </div>
                         </div>
                         <!-- some text -->
                         <div class="kids-text">
-                            <p>Pizza ipsum dolor meat lovers buffalo. <br> Deep dolor roll melted bacon Bianca pan <br> bacon
+                            <p>Pizza ipsum dolor meat lovers buffalo. <br> Deep dolor roll melted bacon Bianca pan <br>
+                                bacon
                                 pineapple Aussie. Mayo rib sauce <br> Hawaiian meatball.
                             </p>
                         </div>
@@ -269,7 +279,7 @@
 
 
                     <!-- footer about -->
-                     <div class="footer-about">
+                    <div class="footer-about">
                         <div class="footer-about-heading">
                             <h4>About School</h4>
                         </div>
@@ -280,13 +290,13 @@
                             <li><a href="#home">Facilities</a></li>
                             <li><a href="#home">Admission</a></li>
                         </ul>
-                     </div>
-                     <!-- end footer about section -->
+                    </div>
+                    <!-- end footer about section -->
 
 
 
-                     <!-- keep in touch -->
-                      <div class="keep-in-touch">
+                    <!-- keep in touch -->
+                    <div class="keep-in-touch">
                         <div class="keep-in-touch-text">
                             <h4>Keep In Touch</h4>
                         </div>
@@ -296,15 +306,22 @@
                             <li><a href="#"><img src="/assets/twitter.png" alt="footer twitter"></a></li>
                             <li><a href="#"><img src="/assets/dribble.png" alt=""></a></li>
                         </ul>
-                      </div>
-                      <!-- keep in touch end -->
-
-
-
+                    </div>
+                    <!-- keep in touch end -->
                 </div>
             </div>
         </section>
     </footer>
+
+    <!-- javascript -->
+    <script>
+        const toggleBtn = document.querySelector(".nav-toggle");
+        const navOption = document.querySelector(".nav-option");
+
+        toggleBtn.addEventListener("click", () => {
+            navOption.classList.toggle("active");
+        });
+    </script>
 </body>
 
 </html>

@@ -49,6 +49,11 @@ span {
 
 
 /* nav style start */
+.menu-toggle {
+  display: none; /* desktop এ লুকানো */
+  font-size: 26px;
+  cursor: pointer;
+}
 .nav-controler {
     display: flex;
     margin-top: 16px;
