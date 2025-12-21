@@ -49,7 +49,7 @@ span {
 
 
 /* nav style start */
-.menu-toggle {
+.nav-toggle {
   display: none; /* desktop এ লুকানো */
   font-size: 26px;
   cursor: pointer;
